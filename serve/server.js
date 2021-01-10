@@ -1,6 +1,5 @@
 const express=require('express');
 const app=express();
-require('dotenv').config();
 const {conectarDB}=require('../db/config')
 conectarDB();
 const bodyParser=require('body-parser');
