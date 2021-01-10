@@ -11,4 +11,4 @@ app.use(bodyParser.json())
 
 app.use(require('./routes/usuarios'))
 
-app.listen(process.env.port,()=>console.log('Run...'))
+app.listen(process.env.PORT || 3000,()=>console.log('Run...'))
